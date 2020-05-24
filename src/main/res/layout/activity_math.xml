@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Math">
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/mathAdView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1669182856365767/5485548554">
+    </com.google.android.gms.ads.AdView>
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mathQuestion"
+        android:text="ما هو السؤال ؟"
+        android:padding="30dp"
+        android:textColor="#123123"
+        android:textSize="20dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/mathLinear1"
+        android:layout_below="@+id/mathQuestion"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mathTrueMark"
+            android:text="صح"
+            android:textSize="40dp"
+            android:textColor="#0A0A0A"
+            android:layout_marginRight="50dp"
+            android:padding="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mathFalseMark"
+            android:text="خطأ"
+            android:textSize="40dp"
+            android:textColor="#0A0A0A"
+            android:layout_marginLeft="50dp"
+            android:padding="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/mathLinear1"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/mathLinear2"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/tru"
+            android:id="@+id/mathTrueImage"
+            android:visibility="gone"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/fals"
+            android:id="@+id/mathfalseImage"
+            android:layout_marginTop="30dp"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/mathAdView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-1669182856365767/5485548554">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

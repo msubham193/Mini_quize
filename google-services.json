@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "473057327797",
+    "firebase_url": "https://mini-quiz-74b73.firebaseio.com",
+    "project_id": "mini-quiz-74b73",
+    "storage_bucket": "mini-quiz-74b73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473057327797:android:cf5c0fe388141b6d68dcfc",
+        "android_client_info": {
+          "package_name": "com.kerols2020.mini_quize"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473057327797-hf1pfttka60n2mev7cbim3hctgrdrmid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kerols2020.mini_quize",
+            "certificate_hash": "eaeabfbf89b4373c750e6535887c59be42666402"
+          }
+        },
+        {
+          "client_id": "473057327797-485ih0j5rou7ko4t8ol56m3vhmhs9fhu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSDGlhE0A_BWtC1UrYLHl4ALRVOVkLPyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473057327797-485ih0j5rou7ko4t8ol56m3vhmhs9fhu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

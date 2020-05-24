@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="logout"
+        android:icon="@drawable/logout"
+        android:id="@+id/logoutMenu"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:title="my wallet"
+        android:icon="@drawable/wallet"
+        android:id="@+id/walletMenu"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+
+        />
+
+    <item
+        android:title="how i use"
+        android:icon="@drawable/instructions"
+        android:id="@+id/instractionsMenu"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+
+        />
+
+</menu>
