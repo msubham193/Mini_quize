@@ -43,7 +43,7 @@ public class SignUp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
-
+        // this is on create.
         databaseReference=firebaseDatabase.getInstance().getReference().child("User");
         firebaseAuth =FirebaseAuth.getInstance();
         Email=(EditText)findViewById(R.id.EmailSignupID);
